@@ -50,7 +50,7 @@ $g_allow_anonymous_login	= OFF;
 $g_anonymous_account		= '';
 
 # --- Email Configuration ---
-$g_phpMailer_method		= PHPMAILER_METHOD_MAIL; # or PHPMAILER_METHOD_SMTP, PHPMAILER_METHOD_SENDMAIL
+$g_phpMailer_method		=  PHPMAILER_METHOD_SMTP
 $g_smtp_host			= 'server247.web-hosting.com';			# used with PHPMAILER_METHOD_SMTP
 $g_smtp_username		= 'admin@hnx.network';					# used with PHPMAILER_METHOD_SMTP
 $g_smtp_password		= 'Pa@9708677704';					# used with PHPMAILER_METHOD_SMTP
