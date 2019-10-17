@@ -51,15 +51,15 @@ $g_anonymous_account		= '';
 
 # --- Email Configuration ---
 $g_phpMailer_method		= PHPMAILER_METHOD_MAIL; # or PHPMAILER_METHOD_SMTP, PHPMAILER_METHOD_SENDMAIL
-$g_smtp_host			= 'localhost';			# used with PHPMAILER_METHOD_SMTP
-$g_smtp_username		= 'eos-block-minner@outlook.com';					# used with PHPMAILER_METHOD_SMTP
-$g_smtp_password		= 'Password';					# used with PHPMAILER_METHOD_SMTP
-$g_webmaster_email      = 'eos-block-minner@outlook.com';
-$g_from_email           = 'eos-block-minner@outlook.com';	# the "From: " field in emails
-$g_return_path_email    = 'eos-block-minner@outlook.com';	# the return address for bounced mail
-# $g_from_name			= 'HNX | Software Management';
-# $g_email_receive_own	= OFF;
-# $g_email_send_using_cronjob = ON;
+$g_smtp_host			= 'server247.web-hosting.com';			# used with PHPMAILER_METHOD_SMTP
+$g_smtp_username		= 'admin@hnx.network';					# used with PHPMAILER_METHOD_SMTP
+$g_smtp_password		= 'Pa@9708677704';					# used with PHPMAILER_METHOD_SMTP
+$g_webmaster_email      = 'admin@hnx.network';
+$g_from_email           = 'admin@hnx.network';	# the "From: " field in emails
+$g_return_path_email    = 'admin@hnx.network';	# the return address for bounced mail
+$g_from_name			= 'HNX | Software Management';
+$g_email_receive_own	= ON;
+$g_email_send_using_cronjob = ON;
 
 # --- Attachments / File Uploads ---
 # $g_allow_file_upload	= ON;
