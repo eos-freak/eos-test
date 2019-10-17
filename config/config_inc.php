@@ -35,10 +35,10 @@
 # detailed comments.
 
 # --- Database Configuration ---
-$g_hostname      = 'localhost';
-$g_db_username   = 'mantisdbuser';
-$g_db_password   = '';
-$g_database_name = 'bugtracker';
+$g_hostname      = 'if0ck476y7axojpg.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+$g_db_username   = 'wsd3l1f5t9jrcpd9';
+$g_db_password   = 'euh546jursh2bds7';
+$g_database_name = 'fplrvuuc2eql1qzb';
 $g_db_type       = 'mysqli';
 
 # --- Security ---
@@ -54,12 +54,12 @@ $g_phpMailer_method		= PHPMAILER_METHOD_MAIL; # or PHPMAILER_METHOD_SMTP, PHPMAI
 $g_smtp_host			= 'localhost';			# used with PHPMAILER_METHOD_SMTP
 $g_smtp_username		= '';					# used with PHPMAILER_METHOD_SMTP
 $g_smtp_password		= '';					# used with PHPMAILER_METHOD_SMTP
-$g_webmaster_email      = 'webmaster@example.com';
-$g_from_email           = 'noreply@example.com';	# the "From: " field in emails
-$g_return_path_email    = 'admin@example.com';	# the return address for bounced mail
-# $g_from_name			= 'Mantis Bug Tracker';
+$g_webmaster_email      = 'eos-block-minner@outlook.com';
+$g_from_email           = 'eos-block-minner@outlook.com';	# the "From: " field in emails
+$g_return_path_email    = 'eos-block-minner@outlook.com';	# the return address for bounced mail
+# $g_from_name			= 'HNX | Software Management';
 # $g_email_receive_own	= OFF;
-# $g_email_send_using_cronjob = OFF;
+# $g_email_send_using_cronjob = ON;
 
 # --- Attachments / File Uploads ---
 # $g_allow_file_upload	= ON;
