@@ -42,7 +42,7 @@ $g_database_name = 'fplrvuuc2eql1qzb';
 $g_db_type       = 'mysqli';
 
 # --- Security ---
-$g_crypto_master_salt = '';	#  Random string of at least 16 chars, unique to the installation
+$g_crypto_master_salt = 'ouhhrtghdhdyehgsyekjgkawgdioqw';	#  Random string of at least 16 chars, unique to the installation
 
 # --- Anonymous Access / Signup ---
 $g_allow_signup				= ON;
@@ -52,8 +52,8 @@ $g_anonymous_account		= '';
 # --- Email Configuration ---
 $g_phpMailer_method		= PHPMAILER_METHOD_MAIL; # or PHPMAILER_METHOD_SMTP, PHPMAILER_METHOD_SENDMAIL
 $g_smtp_host			= 'localhost';			# used with PHPMAILER_METHOD_SMTP
-$g_smtp_username		= '';					# used with PHPMAILER_METHOD_SMTP
-$g_smtp_password		= '';					# used with PHPMAILER_METHOD_SMTP
+$g_smtp_username		= 'eos-block-minner@outlook.com';					# used with PHPMAILER_METHOD_SMTP
+$g_smtp_password		= 'Password';					# used with PHPMAILER_METHOD_SMTP
 $g_webmaster_email      = 'eos-block-minner@outlook.com';
 $g_from_email           = 'eos-block-minner@outlook.com';	# the "From: " field in emails
 $g_return_path_email    = 'eos-block-minner@outlook.com';	# the return address for bounced mail
